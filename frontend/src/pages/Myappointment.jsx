@@ -8,4 +8,4 @@ const Myappointment = () => {
   )
 }
 
-export default Myappointment
+export default MyAppointment
