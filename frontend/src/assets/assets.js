@@ -17,7 +17,7 @@ import upload_icon from './upload_icon.png'
 
 import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
-import doc1 from './doc1.png'
+import KRISHNA from './KRISHNA.jpeg'
 import doc2 from './doc2.png'
 import doc3 from './doc3.png'
 import doc4 from './doc4.png'
@@ -33,11 +33,9 @@ import doc13 from './doc13.png'
 
 
 import Dermatologist from './dermatologist.png';
-import Gastroenterologist from './gastroenterologist.png';
 import General_physician from './general_physician.png';
 import Gynecologist from './gynecologist.png';
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
+
 
 export const assets = {
   appointment_img,
@@ -57,8 +55,8 @@ export const assets = {
   dropdown_icon,
   upload_icon,
   stripe_logo,
-  razorpay_logo
-
+  razorpay_logo,
+}
 
 
 
@@ -76,12 +74,19 @@ export const specialitydata = [
     image: Dermatologist
   },
 ];
-    export const doctors = [
+    export const Doctors = [
   {
-      _di: 'krishna',
-      name: 'dr.krishna',
-      image: krishna,
-      speciality: 'general physican',
+      _id: 'krishna',       
+      name: 'Dr. Krishna',
+      image: KRISHNA,       
+      speciality: 'General physician',  
   }
 ];
-}
+
+  
+
+
+
+
+
+
