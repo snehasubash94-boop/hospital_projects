@@ -1,14 +1,16 @@
 {
-  "name": "froundend",
+  "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+
   "dependencies": {
     "axios": "^1.13.4",
     "react": "^19.2.0",
